@@ -20,6 +20,7 @@
 
 #box1{
     background-color: brown;
+    justify-content: flex-end;
 }
 
 #box2{

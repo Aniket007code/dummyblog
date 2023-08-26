@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    /* border: 1px solid red; */
+   margin: 5px;
+   
+   /* display: inline-block; */
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+ 
+}
+
+.mainHeader{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color:coral;
+}
+
+.btn{
+    /* border: 1px solid green; */
+    width: 30%;
+    margin-top: 20px;
+    padding-left: 10%;
+
+}
+
+.loginBtn{
+    width: 30%;
+    height: 80%;
+    background-color: #00308F;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    margin-right: 20px;
+}
+
+.signupBtn{
+    width: 30%;
+    height: 80%;
+    background-color: 	#FF4500;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    margin-right: 20px;
+}
+
+.centerSec{
+    /* border: 1px solid saddlebrown; */
+    height: 450px;
+    display: flex;
+}
+
+.leftText{
+    /* display: flex; */
+    /* border: 1px solid forestgreen; */
+    width: 50%;
+    /* margin: 20px/; */
+}
+
+.contentOfText{
+    /* border: 1px solid violet; */
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+.rightImg img{
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.foot{
+    /* border: 1px solid hotpink; */
+    height: 70px;
+    text-align: center;
+
+}
+
+.foot p{
+    /* border: 1px solid khaki; */
+    padding: 25px;
+    color: aliceblue;
+    background-color: black;
+    font-weight: 1000;
+}
