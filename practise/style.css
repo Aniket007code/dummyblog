@@ -17,12 +17,17 @@
  
 }
 
+.header a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 .mainHeader{
     /* border: 1px solid blue; */
     display: flex;
     justify-content: space-around;
     height: 60px;
-    background-color:coral;
+    background-color:#72A0C1;
 }
 
 .btn{
@@ -93,4 +98,61 @@
     color: aliceblue;
     background-color: black;
     font-weight: 1000;
+}
+
+.mainCardSection{
+    /* border: 1px solid darkgoldenrod; */
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardBorder{
+    /* border: 1px solid green; */
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* box-shadow: 10px 10px lightblue; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cardBorder img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.addBtn{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.addToCart{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #00308F;
+    color: antiquewhite;
+    border: navy;
+}
+
+.aboutUs{
+    height: 500px;
+}
+
+.aboutUs img{
+    width: 500px;
+    height: 500px;
 }
