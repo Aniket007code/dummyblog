@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-.mainBorder{
+
+.mainBorder {
     /* border: 2px solid red; */
     height: 100vh;
     display: flex;
@@ -11,7 +12,8 @@
     align-items: center;
     background-color: #7FFFD4;
 }
-.quizBorder{
+
+.quizBorder {
     /* border: 1px solid green; */
     width: 540px;
     height: 340px;
@@ -19,33 +21,36 @@
     color: aliceblue;
     font-size: 150%;
     border-radius: 5px;
-    
+
 }
-.question{
+
+#question {
     margin: 10px;
 }
 
-.option1{
+.option1 {
     margin: 25px;
 }
 
-.option2{
+.option2 {
     margin: 25px;
 }
 
-.option3{
+.option3 {
     margin: 25px;
 }
 
-.option4{
+.option4 {
     margin: 25px;
 }
-.submit{
-    width: 100%;
-    height: 50px;
+
+.submit {
+    width: 80%;
+    height: 30px;
     border-radius: 5px;
-    background-color: black;
-    color: seashell;
+    background-color: #7fffd9;
+    color: black;
     border: none;
-    margin-top: 12px;
+    margin-top: 15px;
+    margin-left: 45px;
 }

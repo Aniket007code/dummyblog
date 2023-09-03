@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main class="mainBorder">
         <div class="quizBorder">
-            <h3 class="question">ider question aayega</h3>
+            <h3 id="question">ider question aayega</h3>
             <!-- <hr> -->
 
             <div class="option1">
-                <input type="radio" name="Options" id="">
-                <label for="">option 1</label>
-                 
+                <input type="radio" name="Options" id="option">
+                <label for="option1">option 1</label>
+
             </div>
             <!-- <hr> -->
 
             <div class="option2">
-                <input type="radio" name="Options" id="">
-                <label for="">option 2</label>
+                <input type="radio" name="Options" id="option">
+                <label for="option2">option 2</label>
             </div>
             <!-- <hr> -->
 
             <div class="option3">
-                <input type="radio" name="Options" id="">
-                <label for="">option 3</label>
+                <input type="radio" name="Options" id="option">
+                <label for="option3">option 3</label>
             </div>
             <!-- <hr> -->
 
             <div class="option4">
-                <input type="radio" name="Options" id="">
-                <label for="">option 4</label>
+                <input type="radio" name="Options" id="option">
+                <label for="option4">option 4</label>
             </div>
 
-            <button type="submit" class="submit">Submit</button>
+            <button type="submit" class="submit" onclick="submitQuiz()">Submit</button>
             <!-- <hr> -->
         </div>
 
@@ -47,6 +49,7 @@
 
 
     <script src="app.js"></script>
-    
+
 </body>
+
 </html>
