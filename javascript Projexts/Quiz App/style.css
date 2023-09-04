@@ -16,7 +16,7 @@
 .quizBorder {
     /* border: 1px solid green; */
     width: 540px;
-    height: 340px;
+    height: 360px;
     background-color: #007FFF;
     color: aliceblue;
     font-size: 150%;
@@ -48,9 +48,10 @@
     width: 80%;
     height: 30px;
     border-radius: 5px;
-    background-color: #7fffd9;
+    background-color: white;
     color: black;
     border: none;
     margin-top: 15px;
     margin-left: 45px;
+    cursor: pointer;
 }

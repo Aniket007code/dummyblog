@@ -58,7 +58,7 @@ getAnswer = ()=>{
     optionInputs.forEach (
         (input)=>{
             if(input.checked){
-                answer = input.val();
+                answer = input.value   // ider error hay
             }
 
         }
@@ -70,14 +70,14 @@ const submitQuiz = ()=> {
     const data = questions[index]
 
     const ans = getAnswer();
-    console.log(ans);
+    // console.log(ans);
     
     if(ans == data.correct){
         right++;
-        console.log(right);
+        // console.log(right);
     }else{
         wrong++;
-        console.log(wrong);
+        // console.log(wrong);
     }
 
     index++;
@@ -99,6 +99,18 @@ const reset =()=>{
 
         }
     )
+
+}
+
+const quizBorder = document.getElementById("quizBorder"); 
+
+const endQuiz =()=>{
+    quizBorder.innerHTML = `<h3>Thanks For playing</h3>
+    <br>
+                            your score : ${right} / ${total}
+                            
+                            `
+
 
 }
 
