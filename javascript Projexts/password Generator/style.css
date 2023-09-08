@@ -1,0 +1,52 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generatorabaorder{
+    border: 1px solid blue;
+    width: 430px;
+    height: 320px;
+
+}
+#inputText{
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#passwordLength{
+    width: 45px;
+}
+
+.sameClassToAll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.GenerateBtn{
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid green;
+
+}
+
+.btn{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
