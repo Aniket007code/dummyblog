@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.baharKaDiv{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    border: 1px solid blue;
+    width: 500px;
+    height: 300px;
+
+}
+
+.todoDesign{
+    background-color: brown;
+    height: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
