@@ -8,26 +8,28 @@ addBtn.addEventListener(
         // console.log("btn clicked"xtt);
         const text = document.getElementById("inputText").value;
         console.log(text);
-        const todo = document.createElement('div')
-        todo.classList.add('todos')
-        todo.innerHTML = ` <div class="todoDesign">
-                           <div>${text}</div>
-                           <button onclick="deleteFun()">Delete</button>
-                           </div>`
-        Alltodos.appendChild(todo)
-        
-    //     <div class="todoDesign">
-    //     <span>ider to aayega</span>
-    //     <button>Delete</button>
-    // </div>
+        document.getElementById("inputText").value="";
 
- 
+        var todo = document.createElement('div')
+        todo.classList.add('todos')
+        todo.innerHTML =` <div id="todoDesign">
+                          <li>${text}</li>
+                          <button onclick="deleteFun()">Delete</button>
+                          </div>`
+        Alltodos.appendChild(todo)
     }
+
+    
+   
 )
 
+ 
 function deleteFun(){
     console.log("del fun");
+    document.getElementById('todoDesign').style.display = "none";
 }
+
+
 
 
 
