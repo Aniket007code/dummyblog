@@ -14,20 +14,42 @@ addBtn.addEventListener(
         todo.classList.add('todos')
         todo.innerHTML =` <div id="todoDesign">
                           <li>${text}</li>
-                          <button onclick="deleteFun()">Delete</button>
+                          <button class="delBtn">Delete</button>
                           </div>`
         Alltodos.appendChild(todo)
+
+            todo.querySelector('.delBtn').addEventListener(
+        "click",
+        function(){
+            todo.remove()
+            // saveNotes();
+        }
+
+    )
+
+        
     }
+
+
+    // note.querySelector('.trash').addEventListener(
+    //     "click",
+    //     function(){
+    //         note.remove()
+    //         saveNotes();
+    //     }
+
+    // )
+
 
     
    
 )
 
  
-function deleteFun(){
-    console.log("del fun");
-    document.getElementById('todoDesign').style.display = "none";
-}
+// function deleteFun(){
+//     console.log("del fun");
+//     document.getElementById('todoDesign').style.display = "none";
+// }
 
 
 
