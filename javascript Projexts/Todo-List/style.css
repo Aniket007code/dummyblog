@@ -25,6 +25,7 @@ body{
     height: 350px;
     background-color: whitesmoke;
     border-radius: 5px;
+    overflow-y: scroll;
 
 }
 
