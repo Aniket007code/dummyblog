@@ -7,7 +7,7 @@ const allMovies = document.getElementById("allMovies");
 const getMovies = async(api) => {
     const response = await fetch(api)
     const data = await response.json()
-    // console.log(data);
+    console.log(data);
     showMovies(data.results)
 
 
@@ -15,6 +15,7 @@ const getMovies = async(api) => {
 
 const showMovies = (data) => {
     // console.log(data);
+    allMovies.innerHTML= "";
     data.forEach(item => {
         console.log(item);
         const SingleMovie = document.createElement("div")
@@ -46,3 +47,21 @@ const showMovies = (data) => {
 getMovies(APIURL)
 
 
+
+document.querySelector("#inputText").addEventListener(
+    "keyup",
+    function(event){
+        if(event.target.value != ""){
+            // console.log(SEARCHAPI + event.target.value);
+
+            getMovies(SEARCHAPI + event.target.value)
+            
+
+        }
+        else{
+               getMovies(APIURL)
+
+        }
+
+    }
+)
