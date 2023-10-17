@@ -16,6 +16,7 @@
 }
 
 #output{
+    border: 1px solid red;
     display: flex;
     justify-self: center;
     align-items: center;
